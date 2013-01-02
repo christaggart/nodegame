@@ -1,0 +1,32 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html, body {
+	overflow: hidden;
+	width: 100%;
+    height: 100%;
+}
+
+canvas {
+	background: green;
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+
+.sidebar {
+    background: #333;
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-left: 1px solid #222;
+    -moz-box-shadow:inset 3px 0px 20px #222222;
+    -webkit-box-shadow:inset 3px 0px 20px #222222;
+    box-shadow:inset 3px 0px 20px #222222;
+}
+
+#fps {
+    position: absolute;
+    width:100px;
+    height:20px;
+    background: white;
+}
