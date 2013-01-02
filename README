@@ -1,0 +1,13 @@
+super basic node game server based on mozilla game
+
+$ git clone https://github.com/christaggart/nodegame.git
+$ cd nodegame
+$ brew install node (if not already installed) also requires installing homebrew
+$ curl http://npmjs.org/install.sh | sh
+
+Then start your server.
+$ node game.js
+
+It it up in your browser:
+http://localhost:8080
+
